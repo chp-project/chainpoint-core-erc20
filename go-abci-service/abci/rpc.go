@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
 	"github.com/chainpoint/tendermint/libs/log"
 	core_types "github.com/chainpoint/tendermint/rpc/core/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
 	"github.com/chainpoint/tendermint/rpc/client"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 )
 
 // RPC : hold abstract http client for mocking purposes

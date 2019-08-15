@@ -7,14 +7,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 
 	types2 "github.com/chainpoint/tendermint/abci/types"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
 	"github.com/chainpoint/tendermint/abci/example/code"
 	"github.com/chainpoint/tendermint/libs/common"
 	core_types "github.com/chainpoint/tendermint/rpc/core/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 )
 
 // incrementTxInt: Helper method to increment transaction integer

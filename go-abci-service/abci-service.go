@@ -22,13 +22,13 @@ import (
 
 	"github.com/chainpoint/tendermint/libs/log"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/abci"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
 	cfg "github.com/chainpoint/tendermint/config"
 	tmflags "github.com/chainpoint/tendermint/libs/cli/flags"
 	cmn "github.com/chainpoint/tendermint/libs/common"
 	tmtime "github.com/chainpoint/tendermint/types/time"
+	"github.com/chp-project/chainpoint-core/go-abci-service/abci"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 )
 
 func main() {
@@ -101,7 +101,7 @@ func initABCIConfig(pv privval.FilePV) types.AnchorConfig {
 	useTestNets := (testMode == "testnet")
 	ethTokenContract := ""
 	if doAuditLoop {
-		ethTokenContract = util.ReadContractJSON("/go/src/github.com/chainpoint/chainpoint-core/go-abci-service/ethcontracts/TierionNetworkToken.json", useTestNets)
+		ethTokenContract = util.ReadContractJSON("/go/src/github.com/chp-project/chainpoint-core/go-abci-service/ethcontracts/TierionNetworkToken.json", useTestNets)
 		if ethTokenContract == "" {
 			fmt.Println("Token Contract: Cannot read from JSON ABI file, defaulting to hardcoded contract address")
 			ethTokenContract = util.GetEnv("TokenContractAddr", "0x84294776884A92E6E06989DE0c675db81f8C9bD3")
@@ -109,7 +109,7 @@ func initABCIConfig(pv privval.FilePV) types.AnchorConfig {
 	}
 	ethRegistryContract := ""
 	if doNodeManagement {
-		ethRegistryContract = util.ReadContractJSON("/go/src/github.com/chainpoint/chainpoint-core/go-abci-service/ethcontracts/ChainpointRegistry.json", useTestNets)
+		ethRegistryContract = util.ReadContractJSON("/go/src/github.com/chp-project/chainpoint-core/go-abci-service/ethcontracts/ChainpointRegistry.json", useTestNets)
 		if ethRegistryContract == "" && doNodeManagement {
 			fmt.Println("Registry Contract: Cannot read from JSON ABI file, defaulting to hardcoded contract address")
 			ethRegistryContract = util.GetEnv("RegistryContractAddr", "0xE05da394fAE477De2eE6F64d5C64cf1D8F67a803")

@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 )
 
 func TestValidateRepChainItemHash(t *testing.T) {

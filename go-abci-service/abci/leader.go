@@ -6,9 +6,9 @@ import (
 
 	"github.com/chainpoint/tendermint/types"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
 	"github.com/chainpoint/tendermint/p2p"
 	core_types "github.com/chainpoint/tendermint/rpc/core/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 )
 
 // ElectLeader deterministically elects a network leader by creating an array of peers and using a blockhash-seeded random int as an index

@@ -23,15 +23,15 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/ethcontracts"
+	"github.com/chp-project/chainpoint-core/go-abci-service/ethcontracts"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 )
 
 //LoadJWK : load public keys derived from JWTs from redis

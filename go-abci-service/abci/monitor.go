@@ -11,7 +11,7 @@ import (
 
 	beacon "github.com/chainpoint/go-nist-beacon"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 )
 
 //SyncMonitor : turns off anchoring if we're not synced. Not cron scheduled since we need it to start immediately.

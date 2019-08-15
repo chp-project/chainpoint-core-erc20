@@ -11,21 +11,21 @@ import (
 
 	"github.com/chainpoint/tendermint/abci/example/code"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/ethcontracts"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/postgres"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
+	"github.com/chp-project/chainpoint-core/go-abci-service/ethcontracts"
+	"github.com/chp-project/chainpoint-core/go-abci-service/postgres"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 	"github.com/go-redis/redis"
 
 	"github.com/chainpoint/tendermint/libs/log"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/aggregator"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/calendar"
+	"github.com/chp-project/chainpoint-core/go-abci-service/aggregator"
+	"github.com/chp-project/chainpoint-core/go-abci-service/calendar"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
 	types2 "github.com/chainpoint/tendermint/abci/types"
 	cmn "github.com/chainpoint/tendermint/libs/common"
 	dbm "github.com/chainpoint/tendermint/libs/db"
 	"github.com/chainpoint/tendermint/version"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 )
 
 // variables for protocol version and main db state key

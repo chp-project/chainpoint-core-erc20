@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/ethcontracts"
+	"github.com/chp-project/chainpoint-core/go-abci-service/ethcontracts"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 
 	"github.com/chainpoint/tendermint/libs/log"
 	_ "github.com/lib/pq"

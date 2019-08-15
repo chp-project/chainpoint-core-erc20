@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
 	"github.com/chainpoint/tendermint/libs/log"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 	"github.com/google/uuid"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/merkletools"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/rabbitmq"
+	"github.com/chp-project/chainpoint-core/go-abci-service/merkletools"
+	"github.com/chp-project/chainpoint-core/go-abci-service/rabbitmq"
 	"github.com/streadway/amqp"
 )
 

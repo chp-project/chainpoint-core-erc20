@@ -14,9 +14,9 @@ import (
 
 	types2 "github.com/chainpoint/tendermint/abci/types"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
 	"github.com/chainpoint/tendermint/libs/log"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 )
 
 func DeclareABCI() *AnchorApplication {

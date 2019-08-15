@@ -9,14 +9,14 @@ import (
 
 	"github.com/chainpoint/tendermint/libs/log"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
 	core_types "github.com/chainpoint/tendermint/rpc/core/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/rabbitmq"
+	"github.com/chp-project/chainpoint-core/go-abci-service/rabbitmq"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/merkletools"
+	"github.com/chp-project/chainpoint-core/go-abci-service/merkletools"
 )
 
 type Calendar struct {

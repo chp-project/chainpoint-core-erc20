@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/rabbitmq"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
+	"github.com/chp-project/chainpoint-core/go-abci-service/rabbitmq"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 	"github.com/streadway/amqp"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
 )
 
 // AggregateCalendar : Aggregate submitted hashes into a calendar transaction

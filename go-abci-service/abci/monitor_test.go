@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainpoint/chainpoint-core/go-abci-service/rabbitmq"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/types"
-	"github.com/chainpoint/chainpoint-core/go-abci-service/util"
+	"github.com/chp-project/chainpoint-core/go-abci-service/rabbitmq"
+	"github.com/chp-project/chainpoint-core/go-abci-service/types"
+	"github.com/chp-project/chainpoint-core/go-abci-service/util"
 	"github.com/stretchr/testify/assert"
 )
 
